@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+  <style>
+    div {
+      background-color: rebeccapurple;
+      height: 500px;
+      width: 500px;
+    }
+
+    .box {
+      background-color: red;
+      height: 600px;
+      width: 600px;
+      margin-top: 10px;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    ul, h1 {
+      color: white;
+    }
+
+
+    @media (max-width: 600px) {
+
+      /* CSS for screens below or equal to 600px wide */
+      div {
+        height: 200px;
+        width: 200px;
+      }
+
+      .box {
+        background-color: purple;
+        width: 200px;
+        height: 200px;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Media Query</h1>
+  <div></div>
+  <div class="box">
+    <h1 class="heading">Ahmed</h1>
+    <ul class="heading">
+      <li>Great</li>
+      <li>Intelligent</li>
+      <li>Brave</li>
+    </ul>
+  </div>
+</body>
+
+</html>
